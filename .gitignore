@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.production
+frontend/.env*
+backend/.env*
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Laravel/Lumen specific
+backend/storage/logs/*.log
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+
+# Original folders (agar tidak double)
+erp-mb-v2-msib/
+hr_contract_mngmt/
+hr_contract_management/
+config/
+db/
+mobile/
+sgstemplate/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
